@@ -23,6 +23,7 @@ jobs:
           local-dir: ./
           server-dir: /duncan/
           exclude: |
-            .git*
-            .github/workflows/deploy.yml
+            **/.git*
+            .git/**
+            .github/**
             README.md
