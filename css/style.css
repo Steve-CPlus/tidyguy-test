@@ -114,6 +114,10 @@ main {
 main.main-overlap {
   margin-top: -40px;
 }
+main.page-main {
+  margin-top: 70px;
+}
+
 
 .card-grid {
   display: grid;
