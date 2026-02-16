@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | TidyGuy Lawn Care</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <div class="logo-mark">TG</div>
+        <div>
+          <strong>TidyGuy</strong><br>
+          <small>Lawn & Garden</small>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div>
+        <p class="badge">Service menu</p>
+        <h1>Flexible lawn care plans for every yard.</h1>
+        <p>Pick a one-off tidy or keep things sharp with a regular maintenance loop. All equipment supplied.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Starter Mow</h3>
+        <p>
+          Lawns up to 400m² · mow, edge, and blow-down.
+          Ideal when you just need things reset.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Care Plan</h3>
+        <p>
+          Fortnightly or monthly visit with mowing, edging, weed spray, and hedge touch-ups.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Garden Reset</h3>
+        <p>
+          Heavy weed removal, pruning, and mulching with green waste taken away.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Seasonal Extras</h3>
+        <p>
+          Aeration, fertiliser programs, top dressing, leaf fall clean-ups, gutter clears.
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:36px;">
+      <h3>How pricing works</h3>
+      <ul>
+        <li>Free on-site quote so you know the number before we start.</li>
+        <li>Regular plans billed monthly; one-off jobs pay on completion.</li>
+        <li>Green waste disposal included unless you want to keep the clippings.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> TidyGuy Lawn & Garden · Canberra & Queanbeyan
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

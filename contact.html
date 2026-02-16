@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact TidyGuy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <div class="logo-mark">TG</div>
+        <div>
+          <strong>TidyGuy</strong><br>
+          <small>Lawn & Garden</small>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div>
+        <p class="badge">Say g'day</p>
+        <h1>Book a quote or ask a question.</h1>
+        <p>Use the form or flick us a text. We’ll get back within one business day (usually sooner).</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div class="card contact-card">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name">
+      </div>
+      <div>
+        <label for="email">Email or phone</label>
+        <input id="email" name="email" type="text" placeholder="you@example.com">
+      </div>
+      <div>
+        <label for="message">What do you need help with?</label>
+        <textarea id="message" name="message" rows="4" placeholder="Lawn size, suburb, preferred day, etc."></textarea>
+      </div>
+      <button class="btn" type="button">Send enquiry</button>
+    </div>
+
+    <div class="card" style="margin-top:24px;">
+      <h3>Contact details</h3>
+      <p>📞 02 5555 1234</p>
+      <p>✉️ hello@tidyguy.au</p>
+      <p>Hours: Monday–Saturday, 7:00am – 6:00pm</p>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> TidyGuy Lawn & Garden · Canberra & Queanbeyan
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

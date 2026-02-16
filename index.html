@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TidyGuy Lawn Care | Canberra</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <div class="logo-mark">TG</div>
+        <div>
+          <strong>TidyGuy</strong><br>
+          <small>Lawn & Garden</small>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div>
+        <p class="badge">Canberra & Queanbeyan</p>
+        <h1>Lawns so tidy your neighbours will ask for our number.</h1>
+        <p>
+          Weekly mowing, hedges, garden clean-ups, and a friendly face that actually shows up on time.
+          TidyGuy keeps your yard looking sharp with small-business pride.
+        </p>
+        <a class="btn" href="contact.html">Book a visit →</a>
+      </div>
+      <div class="card">
+        <h3>Why locals trust us</h3>
+        <ul>
+          <li>✔ Fixed-price mowing plans</li>
+          <li>✔ Green waste removed</li>
+          <li>✔ Fully insured team</li>
+          <li>✔ Text reminders before we arrive</li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <h2 class="section-heading">Popular services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Lawn Mowing</h3>
+        <p>Standard mow, edge, and blow-down. Weekly, fortnightly, or one-off tidy-ups.</p>
+      </div>
+      <div class="card">
+        <h3>Hedge & Shrub Care</h3>
+        <p>Neat lines, shaped hedges, and seasonal pruning to keep things lush.</p>
+      </div>
+      <div class="card">
+        <h3>Garden Rescue</h3>
+        <p>Overgrown? We blitz weeds, clear clippings, and reset beds so you can start fresh.</p>
+      </div>
+    </div>
+
+    <h2 class="section-heading">Happy neighbours</h2>
+    <div class="card">
+      <p class="testimonial">
+        “TidyGuy turns up when they say they will and our backyard has never looked better.
+        We locked in a regular mow + hedge trim because it’s just easy.”
+      </p>
+      <strong>— Jess, Farrer</strong>
+    </div>
+
+    <div class="cta-strip card" style="margin-top:36px;">
+      <div>
+        <h3>Ready for a tidy yard?</h3>
+        <p>Let’s lock in a quick quote. We can usually visit within 48 hours.</p>
+      </div>
+      <a class="btn" href="contact.html">Get a quote</a>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> TidyGuy Lawn & Garden · Canberra & Queanbeyan
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

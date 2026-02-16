@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About TidyGuy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <div class="logo-mark">TG</div>
+        <div>
+          <strong>TidyGuy</strong><br>
+          <small>Lawn & Garden</small>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div>
+        <p class="badge">Meet the crew</p>
+        <h1>Local gardeners who actually enjoy mowing lawns.</h1>
+        <p>
+          TidyGuy started as a weekend gig in Tuggeranong. Now we help homeowners all across Canberra keep their yards neat without fuss.
+        </p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Small business energy</h3>
+        <p>We show up on time, send appointment reminders, and remember the little requests (like “avoid the herb patch”).</p>
+      </div>
+      <div class="card">
+        <h3>Proper equipment</h3>
+        <p>Commercial mowers, battery trimmers, and sharp blades so we work fast without shredding your lawn.</p>
+      </div>
+      <div class="card">
+        <h3>Insured & vetted</h3>
+        <p>Public liability cover, police checks, and a tidy dress code so you’re comfortable with us on-site.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:36px;">
+      <h3>Service area</h3>
+      <p>Tuggeranong · Woden · Weston Creek · Belconnen · Queanbeyan. We’ll travel further for seasonal clean-ups—just ask.</p>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> TidyGuy Lawn & Garden · Canberra & Queanbeyan
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
