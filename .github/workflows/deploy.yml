@@ -21,7 +21,7 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: ./
-          server-dir: /duncan/
+          server-dir: /
           dangerous-clean-slate: true
           exclude: |
             **/.git*
