@@ -136,6 +136,10 @@ main.page-main {
   margin-top: 0;
 }
 
+.service-area-card {
+  margin-top: 36px;
+}
+
 .badge {
   display: inline-block;
   padding: 6px 14px;
